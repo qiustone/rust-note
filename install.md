@@ -7,4 +7,8 @@
 
 4. 配置环境变量, 在安装时可选自动加入环境变量PATH, 路径为 C:\Users\Administrator\.cargo\bin
 
-5. 打开CMD, 输入 `rustc --version` 检查是否已安装好 rust
+5. 打开CMD, 输入 `rustc --version` 检查是否已安装好 rust  
+   
+# Updating and Uninstalling
+* `rustup update`
+* `rustup self uninstall`
