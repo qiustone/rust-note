@@ -9,6 +9,7 @@
 
 5. 打开CMD, 输入 `rustc --version` 检查是否已安装好 rust  
    
-# Updating and Uninstalling
+# Updating and Uninstalling and Doc
 * `rustup update`
 * `rustup self uninstall`
+* `rustup doc`
