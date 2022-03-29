@@ -1,4 +1,7 @@
 use std::io;
+use rand::Rng;
+
+// cargo doc --open 将生成本项目相关方法的本地文档并在浏览器中打开
 
 fn main() {
     let foo = 5;       // immutable  let 被用于创建变量
@@ -9,6 +12,10 @@ fn main() {
     bar = 6;
     
     println!("The bar:{}", bar);
+
+    let secret_number = rand::thread_rng().gen_range(1..101);
+
+    println!("The secret number is : {}", secret_number);
 
     println!("Guess the number!");
 
