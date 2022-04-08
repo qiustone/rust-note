@@ -1,2 +1,2 @@
 # rust-note
-learn rust
+Learn Rust
